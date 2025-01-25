@@ -1,0 +1,199 @@
+        /* General Styling */
+        body {
+            /* background: linear-gradient(135deg, #006a8e, #4ca1af); */
+            background-image: url('bg.png');
+            background-repeat: repeat;
+            background-size: cover;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }             
+
+        header {
+            background: #005f73;
+            color: #fff;
+            padding: 20px 10%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: flex-end; /* Align items to the right */
+            width: 100%;
+        }
+
+        header nav h1 {
+            font-size: 1.8rem;
+            margin: 0;
+            flex-grow: 1; /* Push the navigation to the right */
+        }
+        
+
+        header ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            padding: 0;
+            margin: 0;
+        }
+
+        header ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        header ul li a:hover {
+            background: #0a9396;
+        }
+
+        .hero {
+            background: url('clinic-hero.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 10%;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 50px 10%;
+        }
+
+        h2 {
+            color: black;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2rem;
+        }
+
+        /* Services Section */
+        #services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .service {
+            background: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .service:hover {
+            background: #e0f2f1;
+        }
+
+        /* Team Section */
+        #team {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .team-member {
+            text-align: center;
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        /* Appointment Form */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        form input, form select, form button {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        form button {
+            background: #005f73;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        form button:hover {
+            background: #0a9396;
+        }
+
+        /* Testimonials Section */
+        #testimonials {
+            background: #f0f0f0;
+            padding: 50px 10%;
+        }
+
+        .testimonial {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .testimonial span {
+            display: block;
+            margin-top: 10px;
+            color: #555;
+        }
+
+        /* Location Section */
+        #location iframe {
+            width: 100%;
+            height: 400px;
+            border-radius: 10px;
+            border: 0;
+        }
+
+        /* Footer */
+        footer {
+            background: #005f73;
+            color: #fff;
+            padding: 20px 10%;
+            text-align: center;
+        }
+
+        footer .social-links img {
+            width: 30px;
+            margin: 0 10px;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            header nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .hero h2 {
+                font-size: 2rem;
+            }
+        }

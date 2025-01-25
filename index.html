@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Agrawal's Clinic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Dr. Agrawal's Clinic</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#appointment">Appointment</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero" data-aos="fade-up">
+        <h2>Welcome to Dr. Agrawal's Clinic</h2>
+        <p>Your health, our priority.</p>
+    </section>
+
+    <section id="services" data-aos="fade-up">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>General Consultation</h3>
+            <p>Comprehensive healthcare for all ages.</p>
+        </div>
+        <div class="service">
+            <h3>Pediatrics</h3>
+            <p>Expert care for your little ones.</p>
+        </div>
+        <div class="service">
+            <h3>Diagnostics</h3>
+            <p>Accurate and reliable medical tests.</p>
+        </div>
+    </section>
+
+    <section id="about" data-aos="fade-right">
+        <h2>About Us</h2>
+        <p>Dr. Agrawal's Clinic is dedicated to providing exceptional medical care with compassion and professionalism.</p>
+    </section>
+
+    <section id="team" data-aos="fade-left">
+        <h2>Meet Our Team</h2>
+        <div class="team-member">
+            <img src="papa_pic.jpg" alt="Dr. Gopal Agrawal">
+            <h3>Dr. Gopal Agrawal</h3>
+            <p>General Surgeon with 20+ years of experience.</p>
+        </div>
+        <div class="team-member">
+            <img src="mum_pic.jpg" alt="Dr. Preeti Agarwal">
+            <h3>Dr. Preeti Agarwal</h3>
+            <p>Gynecologist with 20+ years of experience.</p>
+        </div>
+    </section>
+
+    <section id="testimonials" data-aos="fade-up">
+        <h2>What Our Patients Say</h2>
+        <div class="testimonial">
+            <p>"The staff is very professional, and the care is top-notch!"</p>
+            <span>- Patient A</span>
+        </div>
+        <div class="testimonial">
+            <p>"Dr. Agrawal's Clinic is the best in town. Highly recommend!"</p>
+            <span>- Patient B</span>
+        </div>
+    </section>
+
+    <section id="appointment" data-aos="fade-up">
+        <h2>Book an Appointment</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Your Phone Number" required>
+            <select required>
+                <option value="" disabled selected>Select a Service</option>
+                <option value="general">General Consultation</option>
+                <option value="pediatrics">Pediatrics</option>
+                <option value="diagnostics">Diagnostics</option>
+            </select>
+            <input type="date" required>
+            <button type="submit">Book Appointment</button>
+        </form>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+        <h2>Contact Us</h2>
+        <p>Email: surgdrgopal@gmail.com</p>
+        <p>Phone: +91-9811955712</p>
+        <p>Address: Plot No - 14, Opp Bharat Ram Global School, Niti Khand 2, Indirapuram, Ghaziabad, Uttar Pradesh 201014</p>
+    </section>
+
+    <section id="location" data-aos="fade-up">
+        <h2>Visit Us</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.4654655620966!2d77.36705147617802!3d28.64577848347785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfab3d5a975b5%3A0xb3fc8542c1056735!2sDr%20Gopal%20Agrawal%20(%20Surgeon%20)!5e0!3m2!1sen!2sin!4v1737812063788!5m2!1sen!2sin" 
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 Dr. Agrawal's Clinic. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init(); // Initialize AOS
+    </script>
+</body>
+</html>
