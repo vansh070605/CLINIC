@@ -1,119 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Agrawal's Clinic</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dr. Agrawal's Clinic - Exceptional Medical Care in Indirapuram, Ghaziabad">
+  <meta name="keywords" content="Clinic, Doctor, Health, Surgery, Pediatrics, Diagnostics">
+  <meta property="og:title" content="Dr. Agrawal's Clinic">
+  <meta property="og:description" content="Providing Quality Healthcare with Compassion and Excellence">
+  <title>Dr. Agrawal's Clinic</title>
+  <link rel="icon" type="image/png" href="favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/brands.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/solid.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <meta http-equiv="Content-Security-Policy" content="frame-src 'self' https://www.google.com https://search.google.com;">
+
 </head>
+
 <body>
-    <header>
-        <nav>
-            <h1>Dr. Agrawal's Clinic</h1>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#appointment">Appointment</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="home" class="hero" data-aos="fade-up">
-        <h2>Welcome to Dr. Agrawal's Clinic</h2>
-        <p>Your health, our priority.</p>
-    </section>
+  
 
-    <section id="services" data-aos="fade-up">
-        <h2>Our Services</h2>
-        <div class="service">
-            <h3>General Consultation</h3>
-            <p>Comprehensive healthcare for all ages.</p>
-        </div>
-        <div class="service">
-            <h3>Pediatrics</h3>
-            <p>Expert care for your little ones.</p>
-        </div>
-        <div class="service">
-            <h3>Diagnostics</h3>
-            <p>Accurate and reliable medical tests.</p>
-        </div>
-    </section>
+  <header id="header">
+    <nav>
+      <h1>
+        <img src="clinic logo.png" alt="Dr. Agrawal's Clinic Logo" class="logo"> 
+        Dr. Agrawal's Clinic
+      </h1>
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul id="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#team" class="nav-link">Team</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#appointment" class="nav-link">Appointment</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  
 
-    <section id="about" data-aos="fade-right">
-        <h2>About Us</h2>
-        <p>Dr. Agrawal's Clinic is dedicated to providing exceptional medical care with compassion and professionalism.</p>
-    </section>
+  <section id="home" class="hero">
+    <div class="hero-content" data-aos="fade-down">
+      <h2>Your Health, Our Priority</h2>
+      <p>Trusted Healthcare for Every Generation</p>
+      <a href="#appointment" class="btn">Book Appointment</a>
+    </div>
+  </section>
 
-    <section id="team" data-aos="fade-left">
-        <h2>Meet Our Team</h2>
-        <div class="team-member">
-            <img src="papa_pic.jpg" alt="Dr. Gopal Agrawal">
-            <h3>Dr. Gopal Agrawal</h3>
-            <p>General Surgeon with 20+ years of experience.</p>
-        </div>
-        <div class="team-member">
-            <img src="mum_pic.jpg" alt="Dr. Preeti Agarwal">
-            <h3>Dr. Preeti Agarwal</h3>
-            <p>Gynecologist with 20+ years of experience.</p>
-        </div>
-    </section>
+  <section id="services" data-aos="fade-up">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card" data-aos="zoom-in">
+        <i class="fas fa-user-md"></i>
+        <h3>General Consultation</h3>
+        <p>Personalized healthcare advice and treatment for all age groups.</p>
+      </div>
+      <div class="card" data-aos="zoom-in">
+        <i class="fas fa-procedures"></i>
+        <h3>Laparoscopic Specialist</h3>
+        <p>Minimally invasive surgical solutions with faster recovery time.</p>
+      </div>
+      <div class="card" data-aos="zoom-in">
+        <i class="fas fa-female"></i>
+        <h3>Gynecologist</h3>
+        <p>Comprehensive women’s health care including prenatal and postnatal care.</p>
+      </div>
+    </div>
+  </section>
+  
 
-    <section id="testimonials" data-aos="fade-up">
-        <h2>What Our Patients Say</h2>
+  <section id="about" data-aos="fade-right">
+    <h2>About Us</h2>
+    <p>We believe in providing world-class medical care blended with compassion and personal attention. Our doctors have decades of experience treating patients with utmost dedication.</p>
+  </section>
+
+  <section id="team" data-aos="fade-left">
+    <h2>Meet Our Team</h2>
+    <div class="cards">
+      <div class="team-member" data-aos="flip-left">
+        <img src="papa_pic.jpg" alt="Dr. Gopal Agrawal">
+        <h3>Dr. Gopal Agrawal</h3>
+        <p>General Surgeon</p>
+      </div>
+      <div class="team-member" data-aos="flip-left">
+        <img src="mum_pic.jpg" alt="Dr. Preeti Agarwal">
+        <h3>Dr. Preeti Agarwal</h3>
+        <p>Gynecologist</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements" class="counters" data-aos="zoom-in-up">
+    <div class="counter">
+      <h3><span data-target="20">0</span>+</h3>
+      <p>Years Experience</p>
+    </div>
+    <div class="counter">
+      <h3><span data-target="5000">0</span>+</h3>
+      <p>Patients Treated</p>
+    </div>
+    <div class="counter">
+      <h3><span data-target="15">0</span>+</h3>
+      <p>Services Offered</p>
+    </div>
+  </section>
+
+  <section id="testimonials" data-aos="fade-up">
+    <h2>What Our Patients Say</h2>
+    <div class="testimonial-slider">
+      <div class="testimonial-wrapper">
         <div class="testimonial">
-            <p>"The staff is very professional, and the care is top-notch!"</p>
-            <span>- Patient A</span>
+          <p>"Got my child treated by him for a cut above the eye and it was a wonderful job. We could hardly make out the injury after stitches were removed. Highly satisfied"</p>
+          <span>- Dr. Piush Kumar</span>
         </div>
         <div class="testimonial">
-            <p>"Dr. Agrawal's Clinic is the best in town. Highly recommend!"</p>
-            <span>- Patient B</span>
+          <p>"Dr. Agrawal, I really appreciate this clinic as well as you for your very good consultancy and thank you so much"</p>
+          <span>- Aryan Raj</span>
         </div>
-    </section>
-
-    <section id="appointment" data-aos="fade-up">
-        <h2>Book an Appointment</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <input type="tel" placeholder="Your Phone Number" required>
-            <select required>
-                <option value="" disabled selected>Select a Service</option>
-                <option value="general">General Consultation</option>
-                <option value="pediatrics">Pediatrics</option>
-                <option value="diagnostics">Diagnostics</option>
-            </select>
-            <input type="date" required>
-            <button type="submit">Book Appointment</button>
-        </form>
-    </section>
-
-    <section id="contact" data-aos="fade-up">
-        <h2>Contact Us</h2>
-        <p>Email: surgdrgopal@gmail.com</p>
-        <p>Phone: +91-9811955712</p>
-        <p>Address: Plot No - 14, Opp Bharat Ram Global School, Niti Khand 2, Indirapuram, Ghaziabad, Uttar Pradesh 201014</p>
-    </section>
-
-    <section id="location" data-aos="fade-up">
-        <h2>Visit Us</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.4654655620966!2d77.36705147617802!3d28.64577848347785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfab3d5a975b5%3A0xb3fc8542c1056735!2sDr%20Gopal%20Agrawal%20(%20Surgeon%20)!5e0!3m2!1sen!2sin!4v1737812063788!5m2!1sen!2sin" 
-            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
-
-    <footer>
-        <div class="footer-content">
-            <p>© 2025 Dr. Agrawal's Clinic. All Rights Reserved.</p>
+        <div class="testimonial">
+          <p>"Personally known to me , dr gopal agrawal is an excellent surgeon in ghaziabad"</p>
+          <span>- Sanjay Sharma</span>
         </div>
-    </footer>
+        <div class="testimonial">
+          <p>"The doctors of the clinic are very professional and know what they are doing and I'll higlhly recommend them"</p>
+          <span>- Shashwat Sharma</span>
+        </div>
+      </div>
+      <div class="testimonial-nav">
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
+    </div>
+  </section>
+  
+  
+  
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script>
-        AOS.init(); // Initialize AOS
-    </script>
+  <section id="faq" data-aos="fade-up">
+    <h2>Frequently Asked Questions</h2>
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-header">What are your clinic timings?</button>
+        <div class="accordion-body">Mon to Sat: 9 AM - 1 PM, 5 PM - 8 PM. <br>Sunday Closed.</div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header">Do I need an appointment?</button>
+        <div class="accordion-body">Walk-ins are welcome, but appointment is preferred for quick service.</div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header">Is there any parking available?</button>
+        <div class="accordion-body">Yes, ample free parking is available near the clinic.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="appointment" data-aos="fade-up">
+    <h2>Book an Appointment</h2>
+    <form id="appointment-form" action="https://formspree.io/f/xnndjpbd" method="POST" autocomplete="off">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+    
+      <select name="service" required>
+        <option value="" disabled selected>Select a Service</option>
+        <option value="general">General Consultation</option>
+        <option value="laparoscopic">Laparoscopic</option>
+        <option value="gynecology">Gynecology</option>
+      </select>
+    
+      <input type="date" name="date" required>
+    
+      <!-- New textarea for reason -->
+      <textarea name="message" rows="3" placeholder="Describe (in small) your reason for the appointment..." required></textarea>
+    
+      <button type="submit">Confirm Appointment</button>
+    </form>
+    
+  </section>
+  
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Us</h2>
+    <p>
+      <i class="fas fa-envelope"></i>
+      <a href="https://mail.google.com/mail/?view=cm&to=surgdrgopal@gmail.com" target="_blank">surgdrgopal@gmail.com</a>
+    </p>
+    <p>
+      <i class="fas fa-phone"></i>
+      <a href="tel:+919811955712">+91-9811955712</a>
+      <i class="fas fa-phone"></i>
+      <a href="tel:+918587825445">+91-8587825445</a>
+      <i class="fas fa-phone"></i>
+      <a href="tel:+919873036787">+91-9873036787</a>
+    </p>    
+    <p><i class="fas fa-map-marker-alt"></i> Plot No - 14, Opp Bharat Ram Global School, Indirapuram, Ghaziabad</p>
+  </section>
+
+  <section id="location" data-aos="fade-up">
+    <h2>Visit Us</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.4654655620966!2d77.36705147617802!3d28.64577848347785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfab3d5a975b5%3A0xb3fc8542c1056735!2sDr%20Gopal%20Agrawal%20(%20Surgeon%20)!5e0!3m2!1sen!2sin!4v1745747503463!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 Dr. Agrawal's Clinic. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/919811955712" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <a href="#appointment" class="appointment-float">Book Now</a>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="script.js"></script>
+
+  <!-- Scroll to Top -->
+<a href="#" class="scroll-top"><i class="fas fa-arrow-up"></i></a>
+
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+
+  // Close menu when any link is clicked (optional)
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+    });
+  });
+
+</script>
+<script>
+  const form = document.getElementById('appointment-form');
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = new FormData(form);
+    
+    const response = await fetch(form.action, {
+      method: 'POST',
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    });
+
+    if (response.ok) {
+      alert('Appointment request sent successfully!');
+      form.reset();
+    } else {
+      alert('There was a problem submitting your form.');
+    }
+  });
+
+  document.addEventListener("DOMContentLoaded", function () {
+  const counters = document.querySelectorAll('.counter span');
+  const speed = 200; // The speed at which the number will increment
+
+  // Intersection Observer to detect when the section comes into view
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // Start counting when the section comes into view
+        counters.forEach(counter => {
+          const target = +counter.getAttribute('data-target');
+          let count = 0;
+          
+          const interval = setInterval(() => {
+            count += Math.ceil(target / speed);
+            counter.textContent = count;
+            if (count >= target) {
+              clearInterval(interval);
+              counter.textContent = target;
+            }
+          }, 1);
+        });
+        
+        // Stop observing after the section is in view
+        observer.disconnect();
+      }
+    });
+  }, { threshold: 0.5 }); // Trigger when 50% of the section is visible
+  
+  // Start observing the section with the counters
+  const section = document.getElementById('achievements');
+  observer.observe(section);
+});
+
+</script>
+
+
+
 </body>
 </html>
